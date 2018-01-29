@@ -1,0 +1,56 @@
+{
+  "_from": "react@^16.2.0",
+  "_id": "react@16.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ZmIomM7EE1DvPEnSFAHZn9Vs9zJl5A9H7el0EGTE6ZbW9FKe/14IYAlPbC8iH25YarEQxZL+E8VW7Mi7kfQrDQ==",
+  "_location": "/react",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react@^16.2.0",
+    "name": "react",
+    "escapedName": "react",
+    "rawSpec": "^16.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^16.2.0"
+  },
+  "_requiredBy": [
+    "/REACT"
+  ],
+  "_resolved": "https://registry.npmjs.org/react/-/react-16.2.0.tgz",
+  "_shasum": "a31bd2dab89bff65d42134fa187f24d054c273ba",
+  "_spec": "react@^16.2.0",
+  "_where": "D:\\Projects\\redux",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "deprecated": false,
+  "description": "1. npm i 2. npm run server",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react",
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
